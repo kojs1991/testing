@@ -19,6 +19,8 @@
 <B>
 <center>고다현 박주홍 장유원 정성윤 고정석 황성현 김성민</center>
 </B><Br>
+    <center><img src="file:///Users/gojeongseog/Documents/workspace/JSPtest/WebContent/image/som.jpg" height = "60" width = "100"/></center>
+<Br><center>MIT License</center><Br>
 
 "Main Project"<Br><Br>
 
