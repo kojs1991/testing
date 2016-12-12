@@ -27,6 +27,22 @@
 Apache Tomcat<Br><Br><Br>
 
 <%=now %><Br><Br>
+    <%
+try{
+	
+	File f = new File("/Users/gojeongseog/Documents/workspace/JSPtest/WebContent/image/MIT.txt");
+	FileReader fr = new FileReader(f);
+	BufferedReader br = new BufferedReader(fr);
+	String line = null;
+	while((line=br.readLine())!=null)
+			{
+	out.println(line+"<br>");	
+	}
+}
+	catch(Exception e)
+{out.println("예외발생");}
+	
+	%>
 
 </body>
 </html>
